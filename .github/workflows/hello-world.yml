@@ -18,4 +18,4 @@ jobs:
 
       # echo ip address of runner
       - name: Echo IP Address
-        run: echo "IP Address: $(hostname -I)"
+        run: echo "IP Address $(hostname -I)"
