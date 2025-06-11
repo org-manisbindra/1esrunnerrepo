@@ -8,7 +8,7 @@ on:
 
 jobs:
   hello-world:
-    runs-on: [ self-hosted, 1ES.Pool=1esghrunner-crt-via-portal ]
+    runs-on: [ self-hosted, 1ES.Pool=1es-github-public-iter3 ]
 
     steps:
       - name: Checkout code
